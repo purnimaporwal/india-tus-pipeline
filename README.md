@@ -16,7 +16,7 @@ The TUS 2019 raw files use a fixed-width text format with variable dictionaries 
 
 - Six-level hierarchical structure requiring sequential merge operations
 - Inconsistent encoding across state-level files
-- Activity classification using the National Classification of Activities for Time Use Studies (NCATUS) at three-digit level
+- Activity classification using the National Classification of Activities for Time Use Studies (NCATUS) at the three-digit level
 - Sampling weights varying by household size and geography
 
 ## Pipeline Components
@@ -42,9 +42,11 @@ output/           Analysis-ready datasets (not included)
 
 ## Status
 
-Pipeline construction completed May 2025. Code is being cleaned for public sharing. Outputs contributed to:
+Pipeline construction was completed in May 2025. Code is being cleaned for public sharing. Outputs contributed to:
 - Two PRISMA-based systematic literature reviews on gendered time allocation and labour inequality (in preparation for journal submission, with M. Mahamallik, IDS Jaipur)
 - Data cleaning contribution for India's TUS second round (2024)
+
+The TUS pipeline work was also where my curiosity about what time-use data reveals and what it quietly misses first became concrete. Working inside the raw files showed me how much it depends on how activity boundaries are drawn.
 
 ## Data Access
 
