@@ -42,11 +42,17 @@ output/           Analysis-ready datasets (not included)
 
 ## Status
 
-Pipeline construction was completed in May 2025. Code is being cleaned for public sharing. Outputs contributed to:
-- Two PRISMA-based systematic literature reviews on gendered time allocation and labour inequality (in preparation for journal submission, with M. Mahamallik, IDS Jaipur)
-- Data cleaning contribution for India's TUS second round (2024)
+Pipeline construction was completed in May 2025.
 
-The TUS pipeline work was also where my curiosity about what time-use data reveals and what it quietly misses first became concrete. Working inside the raw files showed me how much it depends on how activity boundaries are drawn.
+The do-files are being prepared for public sharing, but two things are taking time. The raw TUS 2019 data comes only through MOSPI and cannot be redistributed, so the repository will document the pipeline without the raw inputs. The Stata licence used at IDS Jaipur was institutional; cleaning and verifying the code properly requires renewed access before I can share it responsibly.
+
+The full pipeline code will be uploaded once both are sorted. The methodology is documented in detail above in the meantime. If you are working with TUS 2019 data and want to compare notes, feel free to reach out directly.
+
+This was also where my curiosity about what time-use data reveals, and what it quietly misses, first became concrete. Working inside the raw files showed me how much it depends on how activity boundaries are drawn: where "care" ends and "leisure" begins, what gets recorded as work and what disappears into presence time. Those questions stayed with me well past the pipeline itself.
+
+Outputs from this work contributed to:
+- Two PRISMA-based systematic literature reviews on gendered time allocation and labour inequality (in preparation for journal submission, with M. Mahamallik, IDS Jaipur)
+- Data cleaning for India's TUS second round (2024)
 
 ## Data Access
 
